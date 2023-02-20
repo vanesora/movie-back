@@ -1,0 +1,74 @@
+.menu-container {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 80px;
+}
+
+.container-search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+.container-search input {
+    border-radius: 30px;
+    height: 20px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(187, 180, 180);
+}
+
+.container-search img {
+    cursor: pointer;
+}
+
+.drop-down-container {
+    width: 10.5em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.drop-down-header {
+    padding: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.drop-down-header span{
+    font-size: 14px;
+    color: rgb(179, 143, 184);
+}
+
+
+.drop-down-list {
+    padding: 0;
+    margin: 0;
+    padding-left: 1em;
+    background: black;
+    border: 2px solid #e5e5e5;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    z-index: 50;
+}
+
+.list-item {
+    list-style: none;
+    margin-bottom: 0.8em;
+}
+
+.list-item:hover{
+    background-color: rgb(80, 80, 80);
+}
